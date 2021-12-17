@@ -37,11 +37,12 @@ getTransfersForOffice (obtiene los giros por tienda)
 filtros
  
 Movimientos:
+create (crea un movimiento)
+delete ()## En veremos
 getMovementsDaily (obtiene todos los movimientos realizados en un dia especifico)
 getCashInOffice (Returna valor de efectivo en tienda segun diferencia debe y haber de 
 movimientos del dia)
-create (crea un movimiento)
-delete ()## En veremos
+
 filtros
 
 Login:
