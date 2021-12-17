@@ -13,21 +13,21 @@ Configuracion de db en aws.
 
 Endpoints:
 
-Users  $300
-index (todos los usarios activos)
-show (ver un usuario en particular)
-create (crear un nuevo usuario)
-updated (actualizar un usuario)
-deleted (borrar un usuario)
+Users
+index (todos los usarios activos)-----------------------------------------
+show (ver un usuario en particular)---------------------------------------
+create (crear un nuevo usuario) ------------------------------------------
+updated (actualizar un usuario)-------------------------------------------
+deleted (borrar un usuario)-----------------------------------------------
 
-Clients  $500
+Clients
 index (todos los clientes activos) ---------------------------------------
-show (mostrar informacion de un cliente) -> Con sus giros asociados
+show (mostrar informacion de un cliente) -> Con sus giros asociados (falta asociar giros)
 create (crear nuevo cliente) ---------------------------------------------
 findForDocument (buscar un cliente por nro de documento)------------------
 getRemitentes (obtiene el total de clientes con rol de remitente)---------
 
-Giros $800
+Giros 
 index (todos los giros realizados) 
 show (ver un giro y su data)
 create (crear giro)
@@ -36,7 +36,7 @@ getAmountSenderForClientMonth (obtiene el valor en $ del total giros realizados 
 getTransfersForOffice (obtiene los giros por tienda)
 filtros
  
-Movimientos: $300
+Movimientos:
 getMovementsDaily (obtiene todos los movimientos realizados en un dia especifico)
 getCashInOffice (Returna valor de efectivo en tienda segun diferencia debe y haber de 
 movimientos del dia)
@@ -44,18 +44,8 @@ create (crea un movimiento)
 delete ()## En veremos
 filtros
 
-Login: $300
+Login:
 Realizar login con usuario y contraseña
-
---------Models-----------
-#Model Client:
-id
-firstname
-lastname
-document_number
-document_type
-rol
-phone_number
 
 
 
